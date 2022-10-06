@@ -1,4 +1,4 @@
-# Madlib Coding Challenge
+# Grocery List Coding Challenge
 
 If you don't know what a madlib is, click [here](http://www.redkid.net/madlibs/).
 
