@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+        <style>
+            /* CSS */
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+            canvas {
+                display: block;
+            }
+        </style>
+
+        <title>Grocery List (hidden)</title>
+    </head>
+    <body>
+        <!-- HTML -->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+        <!-- <script src="script.js"></script> -->
+        <script>
+            // JS
+           var _0x342c=['Which\x20item\x20do\x20you\x20want\x20to\x20change?\x20Please\x20enter\x20the\x20number\x20of\x20the\x20item\x20on\x20the\x20list.','length','splice','What\x20would\x20you\x20like\x20to\x20change\x20it\x20to?','Grocery\x20List\x20App','d\x20=\x20delete\x20last\x20item\x20in\x20the\x20list','bread','toLowerCase','pop','Use\x20the\x20following\x20letters\x20to\x20change\x20your\x20list!','r\x20=\x20remove\x20a\x20specific\x20item\x20from\x20the\x20list','push','eggs','c\x20=\x20change\x20an\x20item\x20on\x20the\x20list','Which\x20item\x20do\x20you\x20want\x20to\x20remove?\x20Please\x20enter\x20the\x20number\x20of\x20the\x20item\x20on\x20the\x20list.','Removing:\x20','milk'];(function(_0x450074,_0x342c9f){var _0xad2495=function(_0x348942){while(--_0x348942){_0x450074['push'](_0x450074['shift']());}};_0xad2495(++_0x342c9f);}(_0x342c,0xfe));var _0xad24=function(_0x450074,_0x342c9f){_0x450074=_0x450074-0x0;var _0xad2495=_0x342c[_0x450074];return _0xad2495;};var _0x12fc61=_0xad24,groceryList=[_0x12fc61('0x0'),_0x12fc61('0xd'),_0x12fc61('0x7')];function addItem(){var _0x10f930=_0x12fc61,_0x348942=prompt('What\x20would\x20you\x20like\x20to\x20add?');groceryList[_0x10f930('0xc')](_0x348942);}function deleteLastItem(){var _0x4b3000=_0x12fc61,_0x31e906=groceryList[_0x4b3000('0x9')]();alert(_0x4b3000('0x10')+_0x31e906);}function changeSpecificItem(){var _0x31939f=_0x12fc61,_0x1f39e0=prompt(_0x31939f('0x1')),_0x5e8c39=prompt(_0x31939f('0x4'));groceryList[_0x1f39e0-0x1]=_0x5e8c39;}function removeSpecificItem(){var _0x1fde37=_0x12fc61,_0x384b80=prompt(_0x1fde37('0xf'));groceryList[_0x1fde37('0x3')](_0x384b80-0x1,0x1);}function setup(){createCanvas(0x258,0x190);}function draw(){var _0x4de6a5=_0x12fc61;background(0x0),fill(0x64),rect(0x1e,0x32,0x113,0x12c),fill(0xff),textSize(0x1e),text(_0x4de6a5('0x5'),0x37,0x64),textSize(0xc),text(_0x4de6a5('0xa'),0x32,0x96),textSize(0xf),text('a\x20=\x20add\x20item\x20to\x20the\x20end\x20of\x20the\x20list',0x28,0xc8),text(_0x4de6a5('0x6'),0x28,0xe1),text(_0x4de6a5('0xe'),0x28,0xfa),text(_0x4de6a5('0xb'),0x28,0x113),textSize(0x14),fill(0xff);for(var _0x8f0459=0x0;_0x8f0459<groceryList[_0x4de6a5('0x2')];_0x8f0459++){text(_0x8f0459+0x1+'.\x20'+groceryList[_0x8f0459],0x15e,_0x8f0459*0x1e+0x4b);}}function keyPressed(){var _0x3c9226=_0x12fc61;if(key['toLowerCase']()=='a')addItem();else{if(key[_0x3c9226('0x8')]()=='d')deleteLastItem();else{if(key[_0x3c9226('0x8')]()=='c')changeSpecificItem();else key[_0x3c9226('0x8')]()=='r'&&removeSpecificItem();}}}
+        </script>
+    </body>
+</html>
