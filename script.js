@@ -8,7 +8,7 @@
 
 // DO NOT CHANGE THE LINE OF CODE BELOW!!!
 var groceryList = ["milk","eggs","bread"];
-// DO NOT CHANGE THE LIND OF CODE ABOVE!!!
+// DO NOT CHANGE THE LINE OF CODE ABOVE!!!
 
 function addItem() { // runs when the user presses 'a'
     // TASK 1: Write code that allows the user to add an item to
